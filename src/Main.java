@@ -12,7 +12,6 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("ФИО сотрудника - " + fullName);
-
     }
 
     public static void task2() {
@@ -30,5 +29,4 @@ public class Main {
         fullName = fullName.replaceAll("ё", "е");
         System.out.println("Данные ФИО сотрудника — " + fullName);
     }
-
 }
